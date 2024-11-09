@@ -1,0 +1,260 @@
+body {
+    margin-top: 1vw;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+}
+
+header img {
+    height: 30px;
+}
+
+#barra-icona {
+    display: flex;
+}
+
+#icone, #icone i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#campo-ricerca {
+    border-radius: 30px;
+    width: 175px;
+    height: 30px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+#bottone-utente {
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF7CB;
+    padding-top: 4vw;
+    margin-top: 1vw;
+}
+
+#barra-laterale {
+    margin: 0;
+    width: 25vw;
+    padding: 10px;
+}
+
+#contenitore-post {
+    margin: 0;
+    width: 45vw;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+#contenitore-post span {
+    margin-left: 20px;
+}
+
+#dec p {
+    border-bottom: 1px solid black;
+}
+
+#dec span {
+    border-bottom: 2px solid black;
+}
+
+.layout-orizzontale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-autore {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-autore img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 8px; 
+}
+
+h6 {
+    margin: 0;
+}
+
+.dettagli-lettura {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-lettura, .azioni {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info-lettura i, .azioni i, .info-lettura p {
+    margin-right: 8px;
+}
+
+.info-lettura i {
+    font-size: 2px;
+    margin-left: 8px;
+}
+
+.anteprima-img img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    padding: 10px;  
+}
+
+.anteprima-articolo {
+    height: 60px;
+    line-height: 20px;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+#somma img {
+    height: 30px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+ #somma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #Connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #Discover {
+    text-align: center;
+ }
+
+ #Connect img {
+    height: 30px;
+ }
+
+ #Connect {
+    border-radius: 20px;
+    margin: auto;
+    background: none;
+ }
+
+ #link {
+    text-align: center;
+    text-decoration: underline;
+ }
+
+ #categorie button {
+    border-radius: 20px;
+    margin: 4px;
+    padding: 8px;
+    border: none;
+ }
+
+ #blocco-1 {
+    border-bottom: 1px solid black;
+ }
+
+ .follow img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 0;
+    object-fit: cover;
+    margin-right: 20px;
+ }
+
+ .follow {
+    display: flex;
+    margin: 0;
+    align-items: center;    
+ }
+
+ .follow h4, .follow p {
+    margin: 8px;
+    width: 10vw;
+ }
+
+ .follow button {
+    margin-left: 50px;
+ }
+
+ .abc007 {
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+ }
+
+
+#stella {
+    font-size: 10px;
+}
+
+#tutti {
+    color: green;
+}
+
+.info-autorez1 img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-right: 8px;
+    border-radius: 5px;  
+}
+
+.info-autorez2 img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-right: 8px;
+    border-radius: 50%;  
+}
+
+.info-autorez1, .info-autorez2 {
+    display: flex;
+    align-items: center;
+}
+
+.ordine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fine {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+#fine p {
+    margin-right: 20px;
+    margin-bottom: 2px;
+}
+
+.bottone {
+    border-radius: 10px;
+    background: none;
+}
